@@ -1,0 +1,51 @@
+//
+//  PageControl.swift
+//  Hustle Fitness
+//
+//  Created by Saad Muhamed on 4/27/20.
+//  Copyright © 2020 Saad Muhamed. All rights reserved.
+//
+
+import SwiftUI
+
+struct PageControl: UIViewRepresentable {
+    var numberOfPages: Int
+    @Binding var currenPage: Int
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
+    func makeUIView(context: Context) -> UIPageControl {
+        let control = UIPageControl()
+        control.numberOfPages = numberOfPages
+        control.pageIndicatorTintColor = UIColor.gray
+        control.currentPageIndicatorTintColor = UIColor.white
+        control.frame(forAlignmentRect: CGRect(origin: .zero, size: CGSize(width: 30, height: 30)))
+        
+        control.addTarget(context.coordinator, action: #selector(Coordinator.updateCurrentPage(sender:)), for: .valueChanged)
+        
+        
+        return control
+    }
+    
+    func updateUIView(_ uiView: UIPageControl, context: Context) {
+        uiView.currentPage = currenPage
+    }
+    
+    //MARK: - Coordinator
+    
+    class Coordinator: NSObject {
+        var control: PageControl
+        init(_ control: PageControl) {
+            self.control = control
+        }
+        
+        @objc func updateCurrentPage(sender: UIPageControl) {
+            control.currenPage = sender.currentPage
+        }
+        
+    }
+    
+}
+

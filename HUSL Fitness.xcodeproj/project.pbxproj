@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A26760D2459989A00357E90 /* PlayerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26760C2459989A00357E90 /* PlayerOne.swift */; };
+		3A26760F2459AD6500357E90 /* PlayerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26760E2459AD6500357E90 /* PlayerTwo.swift */; };
+		3A2676122459AD8000357E90 /* PlayerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2676112459AD8000357E90 /* PlayerThree.swift */; };
+		3A2676142459ADF600357E90 /* PlayerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2676132459ADF600357E90 /* PlayerFour.swift */; };
+		3A2676162459AE1E00357E90 /* PlayerFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2676152459AE1E00357E90 /* PlayerFive.swift */; };
+		3A2676182459AE2600357E90 /* PlayerSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2676172459AE2600357E90 /* PlayerSix.swift */; };
+		3A26761A2459AE2D00357E90 /* PlayerSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2676192459AE2D00357E90 /* PlayerSeven.swift */; };
+		3A26761C2459AE3C00357E90 /* PlayerEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26761B2459AE3C00357E90 /* PlayerEight.swift */; };
+		3A26761E2459AE4D00357E90 /* PlayerNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26761D2459AE4D00357E90 /* PlayerNine.swift */; };
+		3A2676202459AE5500357E90 /* PlayerTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26761F2459AE5500357E90 /* PlayerTen.swift */; };
+		3A2676242459AF7400357E90 /* 1st.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676212459AF7300357E90 /* 1st.mov */; };
+		3A2676252459AF7400357E90 /* 2nd.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676222459AF7300357E90 /* 2nd.mov */; };
+		3A2676262459AF7400357E90 /* 3rd.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676232459AF7400357E90 /* 3rd.mov */; };
+		3A26762E2459B9B000357E90 /* 4th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676272459B9AF00357E90 /* 4th.mov */; };
+		3A26762F2459B9B000357E90 /* 9th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676282459B9B000357E90 /* 9th.mov */; };
+		3A2676302459B9B000357E90 /* 8th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A2676292459B9B000357E90 /* 8th.mov */; };
+		3A2676312459B9B000357E90 /* 10th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A26762A2459B9B000357E90 /* 10th.mov */; };
+		3A2676322459B9B000357E90 /* 6th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A26762B2459B9B000357E90 /* 6th.mov */; };
+		3A2676332459B9B000357E90 /* 7th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A26762C2459B9B000357E90 /* 7th.mov */; };
+		3A2676342459B9B000357E90 /* 5th.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3A26762D2459B9B000357E90 /* 5th.mov */; };
+		3A418A142459CE350073A7B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A418A132459CE350073A7B0 /* Default-568h@2x.png */; };
+		3A58C7232404D7D3004F7B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58C7222404D7D3004F7B2D /* AppDelegate.swift */; };
+		3A58C7252404D7D3004F7B2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58C7242404D7D3004F7B2D /* SceneDelegate.swift */; };
+		3A58C7292404D7D8004F7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A58C7282404D7D8004F7B2D /* Assets.xcassets */; };
+		3A58C72C2404D7D8004F7B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A58C72B2404D7D8004F7B2D /* Preview Assets.xcassets */; };
+		3A58C72F2404D7D8004F7B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A58C72D2404D7D8004F7B2D /* LaunchScreen.storyboard */; };
+		3A58C73A2404D7D8004F7B2D /* Hustle_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58C7392404D7D8004F7B2D /* Hustle_FitnessTests.swift */; };
+		3AA03EC72455CF9A00FCB0B4 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03EC62455CF9A00FCB0B4 /* Community.swift */; };
+		3AA03EC92455D01E00FCB0B4 /* Locate an Expert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03EC82455D01E00FCB0B4 /* Locate an Expert.swift */; };
+		3AA03ECB2455D04800FCB0B4 /* Nutrition&Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03ECA2455D04800FCB0B4 /* Nutrition&Diet.swift */; };
+		3AA03ECD2455D06E00FCB0B4 /* Yoga&Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03ECC2455D06E00FCB0B4 /* Yoga&Meditation.swift */; };
+		3AA03ED22455E65000FCB0B4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA03ED12455E65000FCB0B4 /* PageViewController.swift */; };
+		3AA4D14D24508FC1005DEDC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AA4D14C24508FC1005DEDC4 /* GoogleService-Info.plist */; };
+		3AA4D151245252DE005DEDC4 /* HomeViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA4D150245252DE005DEDC4 /* HomeViewPage.swift */; };
+		3AB264B62456421800AED236 /* OnboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264B52456421800AED236 /* OnboardingCard.swift */; };
+		3AB264B82456434600AED236 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264B72456434600AED236 /* PageView.swift */; };
+		3AB264BA24564F0600AED236 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264B924564F0600AED236 /* PageControl.swift */; };
+		3AB264BC24566CC500AED236 /* NewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264BB24566CC500AED236 /* NewContentView.swift */; };
+		3AB264BE245676F100AED236 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264BD245676F100AED236 /* Workouts.swift */; };
+		3AB264C02456813300AED236 /* DailyWorkoutChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB264BF2456813300AED236 /* DailyWorkoutChallenge.swift */; };
+		3AF5B3B02440AA39006EA38D /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5B3AF2440AA39006EA38D /* OnboardingCardView.swift */; };
+		C15180155EEC2474CB923F0A /* Pods_Hustle_Fitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EEE9C0C48C5D23FE5083D7 /* Pods_Hustle_Fitness.framework */; };
+		FD39A3A7A1C98363F65B46EC /* Pods_Hustle_FitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA60C1AA114EE332DAC91193 /* Pods_Hustle_FitnessTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A58C7362404D7D8004F7B2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A58C7172404D7D3004F7B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A58C71E2404D7D3004F7B2D;
+			remoteInfo = "Hustle Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B610401B71E058CCCB0969 /* Pods-Hustle FitnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hustle FitnessTests.release.xcconfig"; path = "Target Support Files/Pods-Hustle FitnessTests/Pods-Hustle FitnessTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A26760C2459989A00357E90 /* PlayerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOne.swift; sourceTree = "<group>"; };
+		3A26760E2459AD6500357E90 /* PlayerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwo.swift; sourceTree = "<group>"; };
+		3A2676112459AD8000357E90 /* PlayerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerThree.swift; sourceTree = "<group>"; };
+		3A2676132459ADF600357E90 /* PlayerFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFour.swift; sourceTree = "<group>"; };
+		3A2676152459AE1E00357E90 /* PlayerFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFive.swift; sourceTree = "<group>"; };
+		3A2676172459AE2600357E90 /* PlayerSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSix.swift; sourceTree = "<group>"; };
+		3A2676192459AE2D00357E90 /* PlayerSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSeven.swift; sourceTree = "<group>"; };
+		3A26761B2459AE3C00357E90 /* PlayerEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEight.swift; sourceTree = "<group>"; };
+		3A26761D2459AE4D00357E90 /* PlayerNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNine.swift; sourceTree = "<group>"; };
+		3A26761F2459AE5500357E90 /* PlayerTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTen.swift; sourceTree = "<group>"; };
+		3A2676212459AF7300357E90 /* 1st.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 1st.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/1st.mov; sourceTree = "<group>"; };
+		3A2676222459AF7300357E90 /* 2nd.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 2nd.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/2nd.mov; sourceTree = "<group>"; };
+		3A2676232459AF7400357E90 /* 3rd.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 3rd.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/3rd.mov; sourceTree = "<group>"; };
+		3A2676272459B9AF00357E90 /* 4th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 4th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/4th.mov; sourceTree = "<group>"; };
+		3A2676282459B9B000357E90 /* 9th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 9th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/9th.mov; sourceTree = "<group>"; };
+		3A2676292459B9B000357E90 /* 8th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 8th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/8th.mov; sourceTree = "<group>"; };
+		3A26762A2459B9B000357E90 /* 10th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 10th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/10th.mov; sourceTree = "<group>"; };
+		3A26762B2459B9B000357E90 /* 6th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 6th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/6th.mov; sourceTree = "<group>"; };
+		3A26762C2459B9B000357E90 /* 7th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 7th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/7th.mov; sourceTree = "<group>"; };
+		3A26762D2459B9B000357E90 /* 5th.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = 5th.mov; path = ../../../../../Users/saadmuhamed/Desktop/vids/5th.mov; sourceTree = "<group>"; };
+		3A418A132459CE350073A7B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3A58C71F2404D7D3004F7B2D /* HUSLFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUSLFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A58C7222404D7D3004F7B2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A58C7242404D7D3004F7B2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A58C7282404D7D8004F7B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A58C72B2404D7D8004F7B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A58C72E2404D7D8004F7B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A58C7302404D7D8004F7B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A58C7352404D7D8004F7B2D /* HUSL FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HUSL FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A58C7392404D7D8004F7B2D /* Hustle_FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hustle_FitnessTests.swift; sourceTree = "<group>"; };
+		3A58C73B2404D7D8004F7B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A97BD2A248CBD62005E4EC1 /* IMG_2611.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2611.jpg; sourceTree = "<group>"; };
+		3A97BD2B248CBD62005E4EC1 /* IMG_2610.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2610.jpg; sourceTree = "<group>"; };
+		3A97BD2C248CBD62005E4EC1 /* IMG_2612.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2612.jpg; sourceTree = "<group>"; };
+		3A97BD2D248CBD62005E4EC1 /* IMG_2613.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2613.jpg; sourceTree = "<group>"; };
+		3A97BD2E248CBD62005E4EC1 /* IMG_2608.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2608.MOV; sourceTree = "<group>"; };
+		3A97BD2F248CBD62005E4EC1 /* IMG_2618.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2618.MOV; sourceTree = "<group>"; };
+		3A97BD30248CBD62005E4EC1 /* IMG_2619.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2619.MOV; sourceTree = "<group>"; };
+		3A97BD31248CBD62005E4EC1 /* IMG_2625.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2625.MOV; sourceTree = "<group>"; };
+		3A97BD32248CBD62005E4EC1 /* IMG_2626.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2626.MOV; sourceTree = "<group>"; };
+		3A97BD33248CBD62005E4EC1 /* IMG_2603.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2603.MOV; sourceTree = "<group>"; };
+		3A97BD34248CBD62005E4EC1 /* IMG_2616.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2616.MOV; sourceTree = "<group>"; };
+		3A97BD35248CBD62005E4EC1 /* IMG_2614.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2614.MOV; sourceTree = "<group>"; };
+		3A97BD36248CBD62005E4EC1 /* IMG_2615.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2615.MOV; sourceTree = "<group>"; };
+		3A97BD37248CBD62005E4EC1 /* IMG_2606.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2606.MOV; sourceTree = "<group>"; };
+		3A97BD38248CBD62005E4EC1 /* IMG_2607.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2607.MOV; sourceTree = "<group>"; };
+		3A97BD39248CBD62005E4EC1 /* IMG_2609.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2609.jpg; sourceTree = "<group>"; };
+		3A97BD3A248CBD62005E4EC1 /* IMG_2614a.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_2614a.MOV; sourceTree = "<group>"; };
+		3AA03EC62455CF9A00FCB0B4 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		3AA03EC82455D01E00FCB0B4 /* Locate an Expert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locate an Expert.swift"; sourceTree = "<group>"; };
+		3AA03ECA2455D04800FCB0B4 /* Nutrition&Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nutrition&Diet.swift"; sourceTree = "<group>"; };
+		3AA03ECC2455D06E00FCB0B4 /* Yoga&Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Yoga&Meditation.swift"; sourceTree = "<group>"; };
+		3AA03ED12455E65000FCB0B4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3AA4D14C24508FC1005DEDC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../IOS Development Course/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AA4D150245252DE005DEDC4 /* HomeViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPage.swift; sourceTree = "<group>"; };
+		3AB264B52456421800AED236 /* OnboardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
+		3AB264B72456434600AED236 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		3AB264B924564F0600AED236 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		3AB264BB24566CC500AED236 /* NewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContentView.swift; sourceTree = "<group>"; };
+		3AB264BD245676F100AED236 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		3AB264BF2456813300AED236 /* DailyWorkoutChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWorkoutChallenge.swift; sourceTree = "<group>"; };
+		3AF5B3AF2440AA39006EA38D /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
+		77EEE9C0C48C5D23FE5083D7 /* Pods_Hustle_Fitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hustle_Fitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC99D7C5A5FFE0A32037510 /* Pods-Hustle Fitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hustle Fitness.release.xcconfig"; path = "Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness.release.xcconfig"; sourceTree = "<group>"; };
+		CA60C1AA114EE332DAC91193 /* Pods_Hustle_FitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hustle_FitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E19B2AEBE909F94836AC2F /* Pods-Hustle Fitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hustle Fitness.debug.xcconfig"; path = "Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness.debug.xcconfig"; sourceTree = "<group>"; };
+		F4632DA7E8557B35F0306228 /* Pods-Hustle FitnessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hustle FitnessTests.debug.xcconfig"; path = "Target Support Files/Pods-Hustle FitnessTests/Pods-Hustle FitnessTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A58C71C2404D7D3004F7B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15180155EEC2474CB923F0A /* Pods_Hustle_Fitness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58C7322404D7D8004F7B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39A3A7A1C98363F65B46EC /* Pods_Hustle_FitnessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2676092459966500357E90 /* Exercises Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3A97BD29248CBD62005E4EC1 /* Kevin Fitness Videos */,
+				3A2676212459AF7300357E90 /* 1st.mov */,
+				3A2676222459AF7300357E90 /* 2nd.mov */,
+				3A2676232459AF7400357E90 /* 3rd.mov */,
+				3A2676272459B9AF00357E90 /* 4th.mov */,
+				3A26762D2459B9B000357E90 /* 5th.mov */,
+				3A26762B2459B9B000357E90 /* 6th.mov */,
+				3A26762C2459B9B000357E90 /* 7th.mov */,
+				3A2676292459B9B000357E90 /* 8th.mov */,
+				3A2676282459B9B000357E90 /* 9th.mov */,
+				3A26762A2459B9B000357E90 /* 10th.mov */,
+			);
+			path = "Exercises Assets";
+			sourceTree = "<group>";
+		};
+		3A2676102459AD7200357E90 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				3A26760C2459989A00357E90 /* PlayerOne.swift */,
+				3A26760E2459AD6500357E90 /* PlayerTwo.swift */,
+				3A2676112459AD8000357E90 /* PlayerThree.swift */,
+				3A2676132459ADF600357E90 /* PlayerFour.swift */,
+				3A2676152459AE1E00357E90 /* PlayerFive.swift */,
+				3A2676172459AE2600357E90 /* PlayerSix.swift */,
+				3A2676192459AE2D00357E90 /* PlayerSeven.swift */,
+				3A26761B2459AE3C00357E90 /* PlayerEight.swift */,
+				3A26761D2459AE4D00357E90 /* PlayerNine.swift */,
+				3A26761F2459AE5500357E90 /* PlayerTen.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		3A58C7162404D7D3004F7B2D = {
+			isa = PBXGroup;
+			children = (
+				3A418A132459CE350073A7B0 /* Default-568h@2x.png */,
+				3A58C7212404D7D3004F7B2D /* HUSL Fitness */,
+				3A58C7382404D7D8004F7B2D /* Hustle FitnessTests */,
+				3A58C7202404D7D3004F7B2D /* Products */,
+				C23A1C05B9D5E6B2365DF87F /* Pods */,
+				5261AC08177F6D2D5870C12A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A58C7202404D7D3004F7B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A58C71F2404D7D3004F7B2D /* HUSLFitness.app */,
+				3A58C7352404D7D8004F7B2D /* HUSL FitnessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A58C7212404D7D3004F7B2D /* HUSL Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				3A2676092459966500357E90 /* Exercises Assets */,
+				3AF5B3AA24408EAC006EA38D /* Model */,
+				3AF5B3AE2440AA25006EA38D /* Views */,
+				3ACA4067244766A700C25244 /* Controller */,
+				3A58C7222404D7D3004F7B2D /* AppDelegate.swift */,
+				3AA4D14C24508FC1005DEDC4 /* GoogleService-Info.plist */,
+				3A58C7242404D7D3004F7B2D /* SceneDelegate.swift */,
+				3A58C7282404D7D8004F7B2D /* Assets.xcassets */,
+				3A58C72D2404D7D8004F7B2D /* LaunchScreen.storyboard */,
+				3A58C7302404D7D8004F7B2D /* Info.plist */,
+				3A58C72A2404D7D8004F7B2D /* Preview Content */,
+			);
+			path = "HUSL Fitness";
+			sourceTree = "<group>";
+		};
+		3A58C72A2404D7D8004F7B2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A58C72B2404D7D8004F7B2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A58C7382404D7D8004F7B2D /* Hustle FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A58C7392404D7D8004F7B2D /* Hustle_FitnessTests.swift */,
+				3A58C73B2404D7D8004F7B2D /* Info.plist */,
+			);
+			path = "Hustle FitnessTests";
+			sourceTree = "<group>";
+		};
+		3A97BD29248CBD62005E4EC1 /* Kevin Fitness Videos */ = {
+			isa = PBXGroup;
+			children = (
+				3A97BD2A248CBD62005E4EC1 /* IMG_2611.jpg */,
+				3A97BD2B248CBD62005E4EC1 /* IMG_2610.jpg */,
+				3A97BD2C248CBD62005E4EC1 /* IMG_2612.jpg */,
+				3A97BD2D248CBD62005E4EC1 /* IMG_2613.jpg */,
+				3A97BD2E248CBD62005E4EC1 /* IMG_2608.MOV */,
+				3A97BD2F248CBD62005E4EC1 /* IMG_2618.MOV */,
+				3A97BD30248CBD62005E4EC1 /* IMG_2619.MOV */,
+				3A97BD31248CBD62005E4EC1 /* IMG_2625.MOV */,
+				3A97BD32248CBD62005E4EC1 /* IMG_2626.MOV */,
+				3A97BD33248CBD62005E4EC1 /* IMG_2603.MOV */,
+				3A97BD34248CBD62005E4EC1 /* IMG_2616.MOV */,
+				3A97BD35248CBD62005E4EC1 /* IMG_2614.MOV */,
+				3A97BD36248CBD62005E4EC1 /* IMG_2615.MOV */,
+				3A97BD37248CBD62005E4EC1 /* IMG_2606.MOV */,
+				3A97BD38248CBD62005E4EC1 /* IMG_2607.MOV */,
+				3A97BD39248CBD62005E4EC1 /* IMG_2609.jpg */,
+				3A97BD3A248CBD62005E4EC1 /* IMG_2614a.MOV */,
+			);
+			path = "Kevin Fitness Videos";
+			sourceTree = "<group>";
+		};
+		3AA03EC52455CF8000FCB0B4 /* Main Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3AB264BD245676F100AED236 /* Workouts.swift */,
+				3AA03EC62455CF9A00FCB0B4 /* Community.swift */,
+				3AA03EC82455D01E00FCB0B4 /* Locate an Expert.swift */,
+				3AA03ECA2455D04800FCB0B4 /* Nutrition&Diet.swift */,
+				3AA03ECC2455D06E00FCB0B4 /* Yoga&Meditation.swift */,
+			);
+			path = "Main Tabs";
+			sourceTree = "<group>";
+		};
+		3AA4D1462450820C005DEDC4 /* Onboarding Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AB264B52456421800AED236 /* OnboardingCard.swift */,
+				3AF5B3AF2440AA39006EA38D /* OnboardingCardView.swift */,
+				3AA03ED12455E65000FCB0B4 /* PageViewController.swift */,
+				3AB264B72456434600AED236 /* PageView.swift */,
+				3AB264B924564F0600AED236 /* PageControl.swift */,
+			);
+			path = "Onboarding Views";
+			sourceTree = "<group>";
+		};
+		3ACA4067244766A700C25244 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AB264BB24566CC500AED236 /* NewContentView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AF5B3AA24408EAC006EA38D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AA03EC52455CF8000FCB0B4 /* Main Tabs */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AF5B3AE2440AA25006EA38D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AA4D1462450820C005DEDC4 /* Onboarding Views */,
+				3AA4D150245252DE005DEDC4 /* HomeViewPage.swift */,
+				3AB264BF2456813300AED236 /* DailyWorkoutChallenge.swift */,
+				3A2676102459AD7200357E90 /* Players */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5261AC08177F6D2D5870C12A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77EEE9C0C48C5D23FE5083D7 /* Pods_Hustle_Fitness.framework */,
+				CA60C1AA114EE332DAC91193 /* Pods_Hustle_FitnessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23A1C05B9D5E6B2365DF87F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E19B2AEBE909F94836AC2F /* Pods-Hustle Fitness.debug.xcconfig */,
+				ABC99D7C5A5FFE0A32037510 /* Pods-Hustle Fitness.release.xcconfig */,
+				F4632DA7E8557B35F0306228 /* Pods-Hustle FitnessTests.debug.xcconfig */,
+				24B610401B71E058CCCB0969 /* Pods-Hustle FitnessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A58C71E2404D7D3004F7B2D /* HUSL Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A58C73E2404D7D8004F7B2D /* Build configuration list for PBXNativeTarget "HUSL Fitness" */;
+			buildPhases = (
+				B2A5BD10FB3B84A417EDF0CD /* [CP] Check Pods Manifest.lock */,
+				3A58C71B2404D7D3004F7B2D /* Sources */,
+				3A58C71C2404D7D3004F7B2D /* Frameworks */,
+				3A58C71D2404D7D3004F7B2D /* Resources */,
+				23A97402A3DAA58CB53CE3CD /* [CP] Embed Pods Frameworks */,
+				4E5EC229C2C60EDEF9985CD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HUSL Fitness";
+			productName = "Hustle Fitness";
+			productReference = 3A58C71F2404D7D3004F7B2D /* HUSLFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A58C7342404D7D8004F7B2D /* HUSL FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A58C7412404D7D8004F7B2D /* Build configuration list for PBXNativeTarget "HUSL FitnessTests" */;
+			buildPhases = (
+				CC07321D4D0CBA349F4A1A4A /* [CP] Check Pods Manifest.lock */,
+				3A58C7312404D7D8004F7B2D /* Sources */,
+				3A58C7322404D7D8004F7B2D /* Frameworks */,
+				3A58C7332404D7D8004F7B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A58C7372404D7D8004F7B2D /* PBXTargetDependency */,
+			);
+			name = "HUSL FitnessTests";
+			productName = "Hustle FitnessTests";
+			productReference = 3A58C7352404D7D8004F7B2D /* HUSL FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A58C7172404D7D3004F7B2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Saad Muhamed";
+				TargetAttributes = {
+					3A58C71E2404D7D3004F7B2D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3A58C7342404D7D8004F7B2D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3A58C71E2404D7D3004F7B2D;
+					};
+				};
+			};
+			buildConfigurationList = 3A58C71A2404D7D3004F7B2D /* Build configuration list for PBXProject "HUSL Fitness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A58C7162404D7D3004F7B2D;
+			productRefGroup = 3A58C7202404D7D3004F7B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A58C71E2404D7D3004F7B2D /* HUSL Fitness */,
+				3A58C7342404D7D8004F7B2D /* HUSL FitnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A58C71D2404D7D3004F7B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A58C72F2404D7D8004F7B2D /* LaunchScreen.storyboard in Resources */,
+				3A2676302459B9B000357E90 /* 8th.mov in Resources */,
+				3AA4D14D24508FC1005DEDC4 /* GoogleService-Info.plist in Resources */,
+				3A58C72C2404D7D8004F7B2D /* Preview Assets.xcassets in Resources */,
+				3A2676342459B9B000357E90 /* 5th.mov in Resources */,
+				3A2676312459B9B000357E90 /* 10th.mov in Resources */,
+				3A26762F2459B9B000357E90 /* 9th.mov in Resources */,
+				3A2676332459B9B000357E90 /* 7th.mov in Resources */,
+				3A418A142459CE350073A7B0 /* Default-568h@2x.png in Resources */,
+				3A2676252459AF7400357E90 /* 2nd.mov in Resources */,
+				3A58C7292404D7D8004F7B2D /* Assets.xcassets in Resources */,
+				3A2676262459AF7400357E90 /* 3rd.mov in Resources */,
+				3A2676322459B9B000357E90 /* 6th.mov in Resources */,
+				3A2676242459AF7400357E90 /* 1st.mov in Resources */,
+				3A26762E2459B9B000357E90 /* 4th.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58C7332404D7D8004F7B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A97402A3DAA58CB53CE3CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5EC229C2C60EDEF9985CD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hustle Fitness/Pods-Hustle Fitness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A5BD10FB3B84A417EDF0CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hustle Fitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC07321D4D0CBA349F4A1A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hustle FitnessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A58C71B2404D7D3004F7B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A26761C2459AE3C00357E90 /* PlayerEight.swift in Sources */,
+				3AA4D151245252DE005DEDC4 /* HomeViewPage.swift in Sources */,
+				3A26761E2459AE4D00357E90 /* PlayerNine.swift in Sources */,
+				3AA03ED22455E65000FCB0B4 /* PageViewController.swift in Sources */,
+				3A2676162459AE1E00357E90 /* PlayerFive.swift in Sources */,
+				3AB264B62456421800AED236 /* OnboardingCard.swift in Sources */,
+				3A26760D2459989A00357E90 /* PlayerOne.swift in Sources */,
+				3AA03EC72455CF9A00FCB0B4 /* Community.swift in Sources */,
+				3A2676122459AD8000357E90 /* PlayerThree.swift in Sources */,
+				3A2676182459AE2600357E90 /* PlayerSix.swift in Sources */,
+				3A26760F2459AD6500357E90 /* PlayerTwo.swift in Sources */,
+				3AB264C02456813300AED236 /* DailyWorkoutChallenge.swift in Sources */,
+				3AB264B82456434600AED236 /* PageView.swift in Sources */,
+				3AA03ECB2455D04800FCB0B4 /* Nutrition&Diet.swift in Sources */,
+				3A26761A2459AE2D00357E90 /* PlayerSeven.swift in Sources */,
+				3A58C7232404D7D3004F7B2D /* AppDelegate.swift in Sources */,
+				3AB264BA24564F0600AED236 /* PageControl.swift in Sources */,
+				3A58C7252404D7D3004F7B2D /* SceneDelegate.swift in Sources */,
+				3A2676202459AE5500357E90 /* PlayerTen.swift in Sources */,
+				3AA03ECD2455D06E00FCB0B4 /* Yoga&Meditation.swift in Sources */,
+				3AA03EC92455D01E00FCB0B4 /* Locate an Expert.swift in Sources */,
+				3A2676142459ADF600357E90 /* PlayerFour.swift in Sources */,
+				3AF5B3B02440AA39006EA38D /* OnboardingCardView.swift in Sources */,
+				3AB264BC24566CC500AED236 /* NewContentView.swift in Sources */,
+				3AB264BE245676F100AED236 /* Workouts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A58C7312404D7D8004F7B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A58C73A2404D7D8004F7B2D /* Hustle_FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A58C7372404D7D8004F7B2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A58C71E2404D7D3004F7B2D /* HUSL Fitness */;
+			targetProxy = 3A58C7362404D7D8004F7B2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A58C72D2404D7D8004F7B2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A58C72E2404D7D8004F7B2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A58C73C2404D7D8004F7B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A58C73D2404D7D8004F7B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A58C73F2404D7D8004F7B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E19B2AEBE909F94836AC2F /* Pods-Hustle Fitness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HUSL Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = L2GMJV62K5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HUSL Fitness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hustletoken.HUSL.Fitness;
+				PRODUCT_NAME = HUSLFitness;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A58C7402404D7D8004F7B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC99D7C5A5FFE0A32037510 /* Pods-Hustle Fitness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HUSL Fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = L2GMJV62K5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HUSL Fitness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.hustletoken.HUSL.Fitness;
+				PRODUCT_NAME = HUSLFitness;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A58C7422404D7D8004F7B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4632DA7E8557B35F0306228 /* Pods-Hustle FitnessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA86PNWK2D;
+				INFOPLIST_FILE = "Hustle FitnessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "http---hustleapp.org-.Hustle-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUSL Fitness.app/HUSL Fitness";
+			};
+			name = Debug;
+		};
+		3A58C7432404D7D8004F7B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B610401B71E058CCCB0969 /* Pods-Hustle FitnessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA86PNWK2D;
+				INFOPLIST_FILE = "Hustle FitnessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "http---hustleapp.org-.Hustle-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUSL Fitness.app/HUSL Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A58C71A2404D7D3004F7B2D /* Build configuration list for PBXProject "HUSL Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58C73C2404D7D8004F7B2D /* Debug */,
+				3A58C73D2404D7D8004F7B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A58C73E2404D7D8004F7B2D /* Build configuration list for PBXNativeTarget "HUSL Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58C73F2404D7D8004F7B2D /* Debug */,
+				3A58C7402404D7D8004F7B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A58C7412404D7D8004F7B2D /* Build configuration list for PBXNativeTarget "HUSL FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A58C7422404D7D8004F7B2D /* Debug */,
+				3A58C7432404D7D8004F7B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A58C7172404D7D3004F7B2D /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "YogaHeader.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
